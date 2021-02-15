@@ -35,13 +35,13 @@
   "runkitExampleFilename": "./docs/examples/ping.js",
   "unpkg": "./webpack/discord.min.js",
   "dependencies": {
-    "form-data": "^2.3.3",
+    "form-data": "^3.0.0",
     "node-fetch": "^2.3.0",
-    "pako": "^1.0.8",
+    "pako": "^2.0.3",
     "prism-media": "amishshah/prism-media",
     "setimmediate": "^1.0.5",
     "tweetnacl": "^1.0.1",
-    "ws": "^6.1.3"
+    "ws": "^7.4.3"
   },
   "peerDependencies": {
     "@discordjs/uws": "^11.149.1",
@@ -51,16 +51,16 @@
     "zlib-sync": "^0.1.4"
   },
   "devDependencies": {
-    "@types/node": "^10.12.24",
+    "@types/node": "^14.14.27",
     "discord.js-docgen": "discordjs/docgen",
-    "eslint": "^5.13.0",
+    "eslint": "^7.20.0",
     "json-filter-loader": "^1.0.0",
-    "terser-webpack-plugin": "^1.2.2",
-    "tslint": "^5.12.1",
+    "terser-webpack-plugin": "^5.1.1",
+    "tslint": "^6.1.3",
     "tslint-config-typings": "^0.3.1",
-    "typescript": "^3.3.3",
-    "webpack": "^4.29.3",
-    "webpack-cli": "^3.2.3"
+    "typescript": "^4.1.5",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
   },
   "engines": {
     "node": ">=10.0.0"
